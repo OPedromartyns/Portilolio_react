@@ -7,9 +7,9 @@ const Projects = () => {
   return (
     <Container id='project'>
         <Zoom>
-            <h1>Recent <span className="green">Projects</span></h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto doloremque 
-            voluptate excepturi porro sed totam quis animi dolorum rerum earum.</p>
+            <h1>Projetos<span className="green"> recentes </span></h1>
+            <p>Um projeto bem executado é como uma obra de arte: requer habilidade, criatividade e atenção aos detalhes.
+            não só impressiona visualmente, mas também é capaz de transmitir emoções e despertar sensações únicas em cada pessoa que o contempla. </p>
         </Zoom>
         <Slide>
             <SliderComp/>

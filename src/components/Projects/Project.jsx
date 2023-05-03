@@ -7,9 +7,9 @@ const Project = (props) => {
     <Container className='project'>
         <img src={img} alt="project" />
         <div className="disc">
-            <h1>Description</h1>
+            <h1>Descrição</h1>
             <p>{disc}
-            <a href="/">demo</a>
+            <a href="https://opedromartyns.github.io/Site_efeito_paralax/">demo</a>
             </p>
         </div>
     </Container>

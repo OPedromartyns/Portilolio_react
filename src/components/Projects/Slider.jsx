@@ -6,24 +6,24 @@ import styled from 'styled-components';
 
 let data = [
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661324124/Yt-portfolio/ui5_mnvdaw.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        img : "https://github.com/OPedromartyns/lucas_barber/blob/main/img%20do%20projeto.png?raw=true",
+        disc : "Este é um portfolio com a coleção dos melhores trabalhos de um barbeiro.A página da web começa com a seção do cabeçalho, que contém o nome, imagem e introdução do barbeiro. A seção principal segue, que contém informações sobre o barbeiro, incluindo suas habilidades, experiência e serviços."
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661324074/Yt-portfolio/ui4_jku3ol.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        img : "https://github.com/OPedromartyns/Relogio_digital/blob/main/img%20do%20projeto.png?raw=true",
+        disc : "A página HTML exibe um relógio digital que mostra as horas, minutos e segundos atualizados em tempo real."
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323981/Yt-portfolio/ui2_wtollo.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        img : "https://github.com/OPedromartyns/Netflix-clone/blob/main/img%20do%20projeto.png?raw=true",
+        disc : "O site clone do front-end da Netflix é uma réplica da plataforma de streaming mais popular do mundo, desenvolvida exclusivamente com tecnologias de front-end como HTML, CSS e JavaScript."
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323980/Yt-portfolio/ui3_akynn4.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        img : "https://github.com/OPedromartyns/Site_efeito_paralax/blob/main/img%20do%20projeto.png?raw=true",
+        disc : "Um site em parallax é um tipo de site que usa efeitos de rolagem para criar a ilusão de profundidade e movimento, permitindo que os elementos da página pareçam estar se movendo em velocidades diferentes à medida que o usuário rola a página para baixo ou para cima."
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323979/Yt-portfolio/ui1_n3uiaz.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        img : "https://github.com/OPedromartyns/formulario_de_login/raw/main/imagem%20ilustativa.png?raw=true",
+        disc : "formulário de login simples em HTML e CSS. Ele contém um campo de entrada de texto para o nome de usuário, um campo de entrada de senha e um botão de envio."
     }
 ];
 
