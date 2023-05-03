@@ -5,39 +5,38 @@ import { CgWebsite } from "react-icons/cg";
 import styled from "styled-components";
 import Card from "./Card";
 import { Slide } from "react-awesome-reveal";
-
+import { FaJsSquare } from 'react-icons/fa';
+import { FaHtml5 } from 'react-icons/fa';
+import { FaCss3 } from 'react-icons/fa';
 const Services = () => {
   return (
     <Container id="service">
       <Slide direction="down">
         <h4>
-          My <span className="green">services</span>
+         Meus <span className="green">Serviços</span>
         </h4>
-        <h1>What I Do</h1>
+        <h1>O que eu faço?</h1>
       </Slide>
       <Cards>
         <Slide direction="left">
           <Card
-            Icon={MdDesignServices}
-            title={"ui/ux designer"}
-            disc={`Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+            Icon={FaJsSquare}
+            title={'JavaScript' }
+            disc={'JavaScript é uma linguagem de programação muito popular e versátil, usada em muitos tipos diferentes de projetos.'}
           />
         </Slide>
         <Slide direction="up">
           <Card
-            Icon={FiCodesandbox}
-            title={"graphic designer"}
-            disc={`Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+            Icon={FaHtml5}
+            title={"HTML5"}
+            disc={`HTML5 é a versão mais recente do HTML, que é uma linguagem de marcação usada para criar páginas web. Com HTML5,é possivel criar páginas web mais modernas e interativas do que nunca.`}
           />
         </Slide>
         <Slide direction="right">
           <Card
-            Icon={CgWebsite}
-            title={"web designer"}
-            disc={`Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+            Icon={FaCss3}
+            title={"CSS"}
+            disc={`CSS é uma linguagem de estilo usada para definir a aparência e o layout de páginas web. Com CSS, é possível definir as cores, fontes, espaçamento, posicionamento e outros elementos visuais de uma página.`}
           />
         </Slide>
       </Cards>

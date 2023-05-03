@@ -17,8 +17,8 @@ const ProfComponent = () => {
           <h3>Desenvolvedor Front end</h3>
           <p>
           com experiência em projetos web responsivos e interativos. Meu portfólio apresenta projetos variados, desde sites de comércio eletrônico a aplicativos de gerenciamento de tarefas. Utilizo HTML, CSS e JavaScript para criar interfaces atraentes e funcionais. Sinta-se à vontade para explorar meu portfólio e entrar em contato comigo para mais informações.
-          </p>
-          <button>Vamos conversar</button>
+          </p> <a href="#footer">
+          <button>Vamos conversar</button></a>
           <Social>
             <p>Confira o meu</p>
             <div className="social-icons">
