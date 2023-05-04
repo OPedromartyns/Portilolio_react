@@ -42,12 +42,13 @@ const ProfComponent = () => {
         </Texts>
       </Slide>
       <Slide direction="right">
-        <Profile>
-          <img
-            src="img/bg_1.png"
-            alt="profile"
-          />
-        </Profile>
+      <Profile>
+  <img
+    src="img/bg_1.png"
+    alt="profile"
+    style={{ width: '500px', height: '470px' }}
+  />
+</Profile>
       </Slide>
     </Container>
   );
@@ -96,7 +97,7 @@ const Texts = styled.div`
     padding: 0.7rem 2rem;
     margin-top: 3rem;
     cursor: pointer;
-    background-color: #01be96;
+    background-color: #31f731;
     border: none;
     color: #fff;
     font-weight: 500;
@@ -126,7 +127,7 @@ const Social = styled.div`
       width: 2.3rem;
       height: 2rem;
       clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-      background-color: #01be96;
+      background-color: #31f731;
       position: relative;
       transition: transform 400ms ease-in-out;
       :hover {

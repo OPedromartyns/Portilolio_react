@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
 import styled from 'styled-components';
-import { GiCandleFlame } from "react-icons/gi";
+import { GiClover} from "react-icons/gi";
 
 const Header = () => {
     const [bar, setBar] = useState(false);
   return (
     <Container bar={bar}>
         <Logo>
-            <span className='green'><GiCandleFlame/></span>
-            <h1>Portfolio</h1>
+            <span className='green'><GiClover/></span>
+            <h1>Portfólio</h1>
         </Logo>
         <Nav bar={bar}>
             <span><a href="#home">Inicio</a></span>
@@ -99,7 +99,7 @@ const Nav = styled.div`
         position: fixed;
         display: flex;
         flex-direction: column;
-        background-color: #01be96;
+        background-color: #31f731;
         inset: 0;
         justify-content: center;
         align-items: center;
