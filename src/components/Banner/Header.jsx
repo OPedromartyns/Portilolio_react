@@ -4,7 +4,7 @@ import { GiClover} from "react-icons/gi";
 
 const Header = () => {
     const [bar, setBar] = useState(false);
-  return (
+    return (
     <Container bar={bar}>
         <Logo>
             <span className='green'><GiClover/></span>
@@ -23,7 +23,7 @@ const Header = () => {
             <div className="bar"></div>
         </div>
     </Container>
-  )
+                )
 }
 
 export default Header

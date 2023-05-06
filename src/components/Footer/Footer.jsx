@@ -7,7 +7,7 @@ import { AiFillGithub, AiFillLinkedin, AiOutlineArrowUp } from "react-icons/ai";
 import { BsFacebook, BsSlack } from "react-icons/bs";
 import { FiMail, FiPhoneCall } from "react-icons/fi";
 import { Slide, Zoom, Fade } from "react-awesome-reveal";
-
+import { BsInstagram } from "react-icons/bs";
 const Footer = () => {
   const scrollUp = () => {
     window.scroll({
@@ -19,26 +19,26 @@ const Footer = () => {
     <Container id="footer">
       <Profile>
         <Slide direction="left" delay={1}>
-          <h1>Portfolio</h1>
+          <h1>Vamos conversar</h1>
         </Slide>
         <div className="address">
           <Slide direction="left">
-            <h1>Address:</h1>
+            <h1>Endereço:</h1>
           </Slide>
           <Slide direction="left">
-            <p>1030 Southwood Dr San Luis Obispo, California(CA), 93401</p>
+            <p>Mogi das cruzes- SP</p>
           </Slide>
         </div>
         <div className="links">
           <Slide direction="left">
-            <h1>Contact me directly:</h1>
+            <h1>Contacte-me diretamente:</h1>
           </Slide>
           <div>
             <span>
               <FiPhoneCall />
             </span>
             <Slide direction="left">
-              <a href="tel:+4733378901">+47 333 78 901</a>
+              <a href="tel:1197736-9484">1197736-9484</a>
             </Slide>
           </div>
           <div>
@@ -48,13 +48,13 @@ const Footer = () => {
               </span>
             </Slide>
             <Slide>
-              <a href="mailto:miladamiri@gmail.com">miladamiri@gmail.com</a>
+              <a href="mailto:1999martyns@gmail.com">1999martyns@gmail.com</a>
             </Slide>
           </div>
         </div>
         <div className="profiles">
           <Slide direction="left">
-            <h1>Check my profiles</h1>
+            <h1>Verifique meus perfis</h1>
           </Slide>
           <div className="icons">
             <Zoom>
@@ -74,7 +74,7 @@ const Footer = () => {
             <Zoom>
               <span>
                 <a href="/">
-                  <BsFacebook />
+                  < BsInstagram />
                 </a>
               </span>
             </Zoom>

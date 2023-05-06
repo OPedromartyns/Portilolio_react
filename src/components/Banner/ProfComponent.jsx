@@ -16,7 +16,7 @@ const ProfComponent = () => {
           <h1 className="green">Pedro Martyns</h1>
           <h3>Desenvolvedor Front end</h3>
           <p>
-          com experiência em projetos web responsivos e interativos. Meu portfólio apresenta projetos variados, desde sites de comércio eletrônico a aplicativos de gerenciamento de tarefas. Utilizo HTML, CSS e JavaScript para criar interfaces atraentes e funcionais. Sinta-se à vontade para explorar meu portfólio e entrar em contato comigo para mais informações.
+          Com experiência em projetos web responsivos e interativos. Meu portfólio apresenta projetos, desde sites de comércio eletrônico a aplicativos de gerenciamento de tarefas. Utilizo HTML, CSS e JavaScript para criar interfaces atraentes e funcionais. Sinta-se à vontade para explorar meu portfólio e entrar em contato comigo para mais informações.
           </p> <a href="#footer">
           <button>Vamos conversar</button></a>
           <Social>
@@ -147,7 +147,7 @@ const Social = styled.div`
 const Profile = styled.div`
   img {
     width: 25rem;
-    filter: drop-shadow(0px 10px 10px #01be9570);
+    filter: drop-shadow(0px 10px 30px #01be9570);
     transition: transform 400ms ease-in-out;
     @media (max-width: 790px) {
       width: 20rem;
@@ -163,6 +163,6 @@ const Profile = styled.div`
   }
 
   :hover img {
-    transform: translateY(-10px);
+    transform: translateY(-20px);
   }
 `;
