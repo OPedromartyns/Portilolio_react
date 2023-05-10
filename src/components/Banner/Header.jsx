@@ -86,12 +86,12 @@ const Logo = styled.div`
     align-items: center;
     gap: 0.5rem;
     span{
-        font-size: 1.8rem;
+        font-size: 2.0rem;
     }
 
     h1{
         font-weight: 600;
-        font-size: 1.2rem;
+        font-size: 1.9rem;
     }
 `
 const Nav = styled.div`
@@ -116,7 +116,7 @@ const Nav = styled.div`
         a{
             color: #fff;
             text-decoration: none;
-            font-weight: 400;
+            font-weight: 1000;
             position: relative;
             :before{
                 content: "";
@@ -125,7 +125,7 @@ const Nav = styled.div`
                 right: 0;
                 bottom: -5px;
                 height: 2px;
-                background-color: #fff;
+                background-color: #31f731;
                 transform: scale(0);
                 transform-origin: right;
                 transition: transform 400ms ease-in-out;
@@ -136,6 +136,7 @@ const Nav = styled.div`
             }
             :hover{
                 opacity: 0.7;
+                color: #31f731;
             }
         }
     }
