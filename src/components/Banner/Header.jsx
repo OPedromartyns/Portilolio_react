@@ -113,6 +113,7 @@ const Nav = styled.div`
     }
     span{
         margin-left: 1rem;
+        font-size: 130%;
         a{
             color: #fff;
             text-decoration: none;

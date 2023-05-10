@@ -24,11 +24,11 @@ const Container = styled.div`
     }
     
     h1{
-        font-size: 1.2rem;
-        padding-bottom: 1rem;
+        font-size: 2.1rem;
+        padding-bottom: 1.8rem;
     }
 
     p{
-        font-size: 0.8rem;
+        font-size: 1.0rem;
     }
 `

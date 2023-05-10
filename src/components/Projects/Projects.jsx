@@ -31,14 +31,14 @@ const Container = styled.div`
         width: 90%;
     }
     h1{
-        font-size: 1.9rem;
+        font-size: 2.2rem;
     }
 
     p{
-        width: 28rem;
+        width: 50rem;
         margin: 0 auto;
         padding: 1rem 0;
-        font-size: 0.9rem;
+        font-size: 1.2rem;
         @media(max-width : 500px){
             width: 90%;
         }
