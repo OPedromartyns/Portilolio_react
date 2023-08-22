@@ -94,13 +94,14 @@ const Footer = () => {
         </Fade>
       </Profile>
       <Form>
+>
         <Slide direction="right">
-          <form>
+          <form  action="https://formsubmit.co/1999martyns@gmail.com" method="POST">
             <div className="name">
               <span>
                 <CgProfile />
               </span>
-              <input type="text" placeholder="Fullname..." />
+              <input type="text" placeholder="Nome completo..." />
             </div>
             <div className="email">
               <span>
@@ -112,9 +113,9 @@ const Footer = () => {
               <span className="messageIcon">
                 <FiMail />
               </span>
-              <textarea cols="30" rows="10" placeholder="Message..."></textarea>
+              <textarea cols="30" rows="10" placeholder="Mensagem..."></textarea>
             </div>
-            <button>Submit</button>
+            <button>Enviar</button>
           </form>
         </Slide>
       </Form>
