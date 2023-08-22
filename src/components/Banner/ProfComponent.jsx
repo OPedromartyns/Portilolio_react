@@ -46,7 +46,7 @@ const ProfComponent = () => {
   <img
     src="img/bg_1.png"
     alt="profile"
-    style={{ width: '500px', height: '530px' }}
+    style={{ width: '490px', height: '460px' }}
   />
 </Profile>
       </Slide>
